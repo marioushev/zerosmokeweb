@@ -11,7 +11,7 @@ const Home = () => {
           Track your progress, save money, and improve your health.
         </p>
         <div className="d-flex justify-content-center gap-3">
-            <Button variant="primary" size="lg">Download on iOS</Button>
+            <Button variant="primary" size="lg" href="https://apps.apple.com/us/app/zero-smoke/id6743452857">Download on iOS</Button>
             {/* Android folder was removed per memory, focusing on iOS */}
         </div>
       </section>
