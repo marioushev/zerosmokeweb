@@ -4,9 +4,9 @@ import { SUPPORT_EMAIL } from '../config';
 
 const Privacy = () => {
   return (
-    <Container className="py-5">
-      <h1 className="mb-4">Privacy Policy</h1>
-      <p className="text-muted">Last updated: October 20, 2026</p>
+    <Container className="prose">
+      <h1>Privacy Policy</h1>
+      <p className="updated">Last updated: October 20, 2026</p>
 
       <p>
         ZeroSmoke ("we", "our" or "the app") is committed to protecting your privacy. This Privacy Policy explains

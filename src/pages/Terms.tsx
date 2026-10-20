@@ -2,9 +2,9 @@ import { Container } from 'react-bootstrap';
 
 const Terms = () => {
   return (
-    <Container className="py-5">
-      <h1 className="mb-4">Terms of Service</h1>
-      <p className="text-muted">Last updated: {new Date().toLocaleDateString()}</p>
+    <Container className="prose">
+      <h1>Terms of Service</h1>
+      <p className="updated">Last updated: {new Date().toLocaleDateString()}</p>
 
       <h3>1. Acceptance of Terms</h3>
       <p>

@@ -1,1 +1,1 @@
-export const SUPPORT_EMAIL = 'mario.p.ushev@gmail.com';
+export const SUPPORT_EMAIL = 'support@zerosmokeapp.com';

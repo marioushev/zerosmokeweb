@@ -3,8 +3,8 @@ import { SUPPORT_EMAIL } from '../config';
 
 const Support = () => {
   return (
-    <Container className="py-5">
-      <h1 className="mb-4">Support</h1>
+    <Container className="prose">
+      <h1>Support</h1>
 
       <h3>Contact</h3>
       <p>
