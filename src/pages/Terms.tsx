@@ -1,4 +1,5 @@
 import { Container } from 'react-bootstrap';
+import EmailButton from '../components/EmailButton';
 
 const Terms = () => {
   return (
@@ -33,7 +34,10 @@ const Terms = () => {
       
       <h3>6. Contact Us</h3>
       <p>
-        If you have any questions about these Terms, please contact us at support@zerosmokeapp.com.
+        If you have any questions about these Terms, please email us.
+      </p>
+      <p>
+        <EmailButton />
       </p>
     </Container>
   );

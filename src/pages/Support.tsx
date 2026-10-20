@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import { SUPPORT_EMAIL } from '../config';
+import EmailButton from '../components/EmailButton';
 
 const Support = () => {
   return (
@@ -8,8 +8,10 @@ const Support = () => {
 
       <h3>Contact</h3>
       <p>
-        For questions, bug reports or feedback, email <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a>. We answer
-        as soon as we can.
+        For questions, bug reports or feedback, email us. We answer as soon as we can.
+      </p>
+      <p>
+        <EmailButton />
       </p>
 
       <h3>Subscriptions</h3>

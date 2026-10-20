@@ -590,3 +590,9 @@ a {
     to { opacity: 1; }
   }
 }
+
+.email-button {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-align: left;
+}

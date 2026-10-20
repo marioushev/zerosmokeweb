@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { SUPPORT_EMAIL } from '../config';
+import EmailButton from '../components/EmailButton';
 
 const Privacy = () => {
   return (
@@ -91,8 +91,11 @@ const Privacy = () => {
 
       <h3>7. Contact Us</h3>
       <p>
-        If you have any questions about this Privacy Policy, please contact us at{' '}
-        <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a> or see our <Link to="/support">Support</Link> page.
+        If you have any questions about this Privacy Policy, please email us or see our{' '}
+        <Link to="/support">Support</Link> page.
+      </p>
+      <p>
+        <EmailButton />
       </p>
     </Container>
   );
