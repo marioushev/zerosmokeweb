@@ -13,6 +13,7 @@ const Layout = () => {
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/terms">Terms</Nav.Link>
               <Nav.Link as={Link} to="/privacy">Privacy</Nav.Link>
+              <Nav.Link as={Link} to="/support">Support</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -27,7 +28,8 @@ const Layout = () => {
           <p className="mb-0">&copy; {new Date().getFullYear()} ZeroSmoke App. All rights reserved.</p>
           <div className="mt-2">
              <Link to="/terms" className="text-light text-decoration-none me-3">Terms of Service</Link>
-             <Link to="/privacy" className="text-light text-decoration-none">Privacy Policy</Link>
+             <Link to="/privacy" className="text-light text-decoration-none me-3">Privacy Policy</Link>
+             <Link to="/support" className="text-light text-decoration-none">Support</Link>
           </div>
         </Container>
       </footer>
