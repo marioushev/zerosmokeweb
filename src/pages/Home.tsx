@@ -129,10 +129,10 @@ const Home = () => {
           ZeroSmoke is your personal companion to a smoke-free life. Track your progress, save money, and
           improve your health.
         </p>
-        <div className="d-flex flex-wrap gap-2">
-          <Button variant="primary" size="lg" href={APP_STORE_URL}>
-            Download on the App Store
-          </Button>
+        <div className="d-flex flex-wrap align-items-center gap-2">
+          <a className="app-store-badge" href={APP_STORE_URL}>
+            <img src="/app-store-badge.svg" alt="Download on the App Store" />
+          </a>
           <Link to="/support" className="btn btn-outline-primary btn-lg">
             Support
           </Link>

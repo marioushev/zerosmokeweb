@@ -127,6 +127,21 @@ a {
   --bs-btn-active-border-color: var(--gray-100);
 }
 
+.app-store-badge {
+  display: inline-block;
+  transition: transform 160ms var(--ease-out);
+}
+
+.app-store-badge:active {
+  transform: scale(0.97);
+}
+
+.app-store-badge img {
+  display: block;
+  height: 50px;
+  width: auto;
+}
+
 /* Navbar */
 
 .site-nav {
@@ -578,7 +593,8 @@ a {
   }
 
   .btn,
-  .btn:active {
+  .btn:active,
+  .app-store-badge:active {
     transform: none;
   }
 
