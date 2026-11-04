@@ -6,7 +6,7 @@ const Privacy = () => {
   return (
     <Container className="prose">
       <h1>Privacy Policy</h1>
-      <p className="updated">Last updated: October 20, 2026</p>
+      <p className="updated">Last updated: November 4, 2026</p>
 
       <p>
         ZeroSmoke ("we", "our" or "the app") is committed to protecting your privacy. This Privacy Policy explains
@@ -57,6 +57,22 @@ const Privacy = () => {
       <p>
         You can turn anonymous usage statistics off at any time in <strong>Settings → Anonymous usage statistics</strong>.
       </p>
+      <h5>Crash reports (Sentry)</h5>
+      <p>
+        We use Sentry (EU servers) to find and fix crashes and errors. When the app crashes or has an error, it sends a
+        report with the error, the app version, the iOS version and the device model. These reports:
+      </p>
+      <ul>
+        <li>contain <strong>no health data</strong> (no habits, amounts, counts, strengths, dates or moods)</li>
+        <li>
+          are <strong>not linked to your identity</strong>: they do not include your IP address, your name, your device
+          name or a user ID
+        </li>
+        <li>do not include session recordings, screenshots or screen content</li>
+      </ul>
+      <p>
+        The same switch, <strong>Settings → Anonymous usage statistics</strong>, also turns crash reports off.
+      </p>
       <h5>Purchases (Apple and RevenueCat)</h5>
       <p>
         Subscriptions are processed by Apple. We use RevenueCat to check whether you have an active subscription.
@@ -74,7 +90,9 @@ const Privacy = () => {
           <strong>Deletion</strong>: <strong>Settings → Delete all my data</strong> deletes all data from your device.
           You can also remove a single habit and its history from the habit's plan settings.
         </li>
-        <li><strong>Opt out of analytics</strong>: <strong>Settings → Anonymous usage statistics</strong>.</li>
+        <li>
+          <strong>Opt out of analytics and crash reports</strong>: <strong>Settings → Anonymous usage statistics</strong>.
+        </li>
       </ul>
 
       <h3>5. Children's Privacy</h3>
