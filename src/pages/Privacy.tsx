@@ -44,34 +44,31 @@ const Privacy = () => {
       </p>
 
       <h3>3. Information Shared with Third Parties</h3>
-      <h5>Anonymous usage statistics (PostHog)</h5>
+      <h5>Usage statistics and crash reports (Sentry)</h5>
       <p>
-        We use PostHog (EU servers) to understand which features are used, for example "an onboarding step was viewed"
-        or "an entry was logged from the widget". These events:
-      </p>
-      <ul>
-        <li>contain <strong>no health data</strong> (no habits, amounts, counts, strengths, dates or moods)</li>
-        <li>are <strong>not linked to your identity</strong> and do not create a user profile</li>
-        <li>do not include session recordings or screen content</li>
-      </ul>
-      <p>
-        You can turn anonymous usage statistics off at any time in <strong>Settings → Anonymous usage statistics</strong>.
-      </p>
-      <h5>Crash reports (Sentry)</h5>
-      <p>
-        We use Sentry (EU servers) to find and fix crashes and errors. When the app crashes or has an error, it sends a
-        report with the error, the app version, the iOS version and the device model. These reports:
+        We use Sentry (EU servers) to find and fix crashes and errors, and to count which features are used, for example
+        "an entry was logged from the widget". When the app crashes or has an error, it sends a report with the error,
+        the app version, the iOS version and the device model. These reports and counts:
       </p>
       <ul>
         <li>contain <strong>no health data</strong> (no habits, amounts, counts, strengths, dates or moods)</li>
         <li>
           are <strong>not linked to your identity</strong>: they do not include your IP address, your name, your device
-          name or a user ID
+          name or a user ID, and they do not create a user profile
         </li>
         <li>do not include session recordings, screenshots or screen content</li>
       </ul>
       <p>
-        The same switch, <strong>Settings → Anonymous usage statistics</strong>, also turns crash reports off.
+        You can turn usage statistics and crash reports off at any time in{' '}
+        <strong>Settings → Anonymous usage statistics</strong>.
+      </p>
+      <h5>Feedback (Sentry)</h5>
+      <p>
+        If you write a message in <strong>Settings → Send feedback</strong>, the app sends the message, the app version
+        and the iOS version to Sentry. The message is anonymous: the app does not ask for your name or email address,
+        and it does not send your IP address. Because of this, we cannot reply to it. Do not write personal or health
+        details that you do not want to share. The app sends feedback only when you tap Send, also if usage statistics
+        are off.
       </p>
       <h5>Purchases (Apple and RevenueCat)</h5>
       <p>
@@ -91,7 +88,7 @@ const Privacy = () => {
           You can also remove a single habit and its history from the habit's plan settings.
         </li>
         <li>
-          <strong>Opt out of analytics and crash reports</strong>: <strong>Settings → Anonymous usage statistics</strong>.
+          <strong>Opt out of usage statistics and crash reports</strong>: <strong>Settings → Anonymous usage statistics</strong>.
         </li>
       </ul>
 
