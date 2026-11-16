@@ -204,7 +204,7 @@ const Home = () => {
           <h2>Your last smoke starts here.</h2>
           <p>Free to download. No account, no tracking across apps.</p>
         </div>
-        <Button className="btn-light-on-dark flex-shrink-0" size="lg" href={APP_STORE_URL}>
+        <Button variant="primary" className="flex-shrink-0" size="lg" href={APP_STORE_URL}>
           Get ZeroSmoke
         </Button>
       </section>
